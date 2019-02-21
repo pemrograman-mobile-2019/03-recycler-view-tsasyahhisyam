@@ -59,7 +59,8 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHo
         public ViewHolder(@NonNull View itemView) {
 
             super(itemView);
-
+            nameTextView = itemView.findViewById(R.id.contact_name);
+            messageButton = itemView.findViewById(R.id.message_button);
         }
     }
 }
